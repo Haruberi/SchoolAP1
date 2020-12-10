@@ -16,5 +16,11 @@ namespace SchoolCalculator
         {
             InitializeComponent();
         }
+
+        private void button_click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            ResultBox.Text = ResultBox.Text + button.Text;
+        }
     }
 }
