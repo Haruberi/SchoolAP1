@@ -19,6 +19,9 @@ namespace SchoolCalculator
 
         private void button_click(object sender, EventArgs e)
         {
+            if (ResultBox.Text=="0")
+                ResultBox.Clear();
+
             Button button = (Button)sender;
             ResultBox.Text = ResultBox.Text + button.Text;
         }
