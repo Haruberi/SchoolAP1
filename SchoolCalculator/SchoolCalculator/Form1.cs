@@ -87,6 +87,8 @@ namespace SchoolCalculator
                 default:
                     break;
             }
+            valueResult = Double.Parse(ResultBox.Text);
+            showOperationLabel.Text = "";
         }
     }
 }
