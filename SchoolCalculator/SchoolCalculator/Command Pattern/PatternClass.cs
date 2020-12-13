@@ -10,18 +10,9 @@ namespace SchoolCalculator.Command_Pattern
     //Receiver
     public class PatternClass : IPatternClass
     {
-
-        public PatternClass()
-        {
-        }
-        public PatternClass(int value)
-        {
-        }
         public void equal_click(object sender, EventArgs e)
         {
-        }
-        public void Execute ()
-        {
+            Console.WriteLine();
         }
 
         public void Undo()

@@ -11,10 +11,11 @@ namespace SchoolCalculator.Command_Pattern
     {
         //Undo
        void Undo();
+        //Redo
        void Redo();
+
         bool operationPerformedCorrectly { get; set; }
         //Execute
         void equal_click(object sender, EventArgs e);
-        void Execute();
     }
 }
