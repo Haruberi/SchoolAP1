@@ -54,7 +54,7 @@ namespace SchoolCalculator
             // numberOne
             // 
             this.numberOne.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOne.Location = new System.Drawing.Point(30, 298);
+            this.numberOne.Location = new System.Drawing.Point(23, 273);
             this.numberOne.Name = "numberOne";
             this.numberOne.Size = new System.Drawing.Size(70, 70);
             this.numberOne.TabIndex = 0;
@@ -65,7 +65,7 @@ namespace SchoolCalculator
             // numberTwo
             // 
             this.numberTwo.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberTwo.Location = new System.Drawing.Point(106, 298);
+            this.numberTwo.Location = new System.Drawing.Point(99, 273);
             this.numberTwo.Name = "numberTwo";
             this.numberTwo.Size = new System.Drawing.Size(70, 70);
             this.numberTwo.TabIndex = 1;
@@ -76,7 +76,7 @@ namespace SchoolCalculator
             // numberZero
             // 
             this.numberZero.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberZero.Location = new System.Drawing.Point(30, 374);
+            this.numberZero.Location = new System.Drawing.Point(23, 349);
             this.numberZero.Name = "numberZero";
             this.numberZero.Size = new System.Drawing.Size(146, 70);
             this.numberZero.TabIndex = 2;
@@ -87,7 +87,7 @@ namespace SchoolCalculator
             // divButton
             // 
             this.divButton.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.divButton.Location = new System.Drawing.Point(257, 149);
+            this.divButton.Location = new System.Drawing.Point(250, 124);
             this.divButton.Name = "divButton";
             this.divButton.Size = new System.Drawing.Size(70, 70);
             this.divButton.TabIndex = 7;
@@ -98,7 +98,7 @@ namespace SchoolCalculator
             // numberNine
             // 
             this.numberNine.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberNine.Location = new System.Drawing.Point(181, 149);
+            this.numberNine.Location = new System.Drawing.Point(174, 124);
             this.numberNine.Name = "numberNine";
             this.numberNine.Size = new System.Drawing.Size(70, 70);
             this.numberNine.TabIndex = 6;
@@ -109,7 +109,7 @@ namespace SchoolCalculator
             // numberEight
             // 
             this.numberEight.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberEight.Location = new System.Drawing.Point(106, 149);
+            this.numberEight.Location = new System.Drawing.Point(99, 124);
             this.numberEight.Name = "numberEight";
             this.numberEight.Size = new System.Drawing.Size(70, 70);
             this.numberEight.TabIndex = 5;
@@ -120,7 +120,7 @@ namespace SchoolCalculator
             // numberSeven
             // 
             this.numberSeven.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberSeven.Location = new System.Drawing.Point(30, 149);
+            this.numberSeven.Location = new System.Drawing.Point(23, 124);
             this.numberSeven.Name = "numberSeven";
             this.numberSeven.Size = new System.Drawing.Size(70, 70);
             this.numberSeven.TabIndex = 4;
@@ -131,7 +131,7 @@ namespace SchoolCalculator
             // plusButton
             // 
             this.plusButton.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plusButton.Location = new System.Drawing.Point(257, 374);
+            this.plusButton.Location = new System.Drawing.Point(250, 349);
             this.plusButton.Name = "plusButton";
             this.plusButton.Size = new System.Drawing.Size(70, 70);
             this.plusButton.TabIndex = 11;
@@ -142,7 +142,7 @@ namespace SchoolCalculator
             // numberSix
             // 
             this.numberSix.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberSix.Location = new System.Drawing.Point(181, 222);
+            this.numberSix.Location = new System.Drawing.Point(174, 197);
             this.numberSix.Name = "numberSix";
             this.numberSix.Size = new System.Drawing.Size(70, 70);
             this.numberSix.TabIndex = 10;
@@ -153,7 +153,7 @@ namespace SchoolCalculator
             // numberFive
             // 
             this.numberFive.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberFive.Location = new System.Drawing.Point(106, 222);
+            this.numberFive.Location = new System.Drawing.Point(99, 197);
             this.numberFive.Name = "numberFive";
             this.numberFive.Size = new System.Drawing.Size(70, 70);
             this.numberFive.TabIndex = 9;
@@ -164,7 +164,7 @@ namespace SchoolCalculator
             // numberFour
             // 
             this.numberFour.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberFour.Location = new System.Drawing.Point(30, 222);
+            this.numberFour.Location = new System.Drawing.Point(23, 197);
             this.numberFour.Name = "numberFour";
             this.numberFour.Size = new System.Drawing.Size(70, 70);
             this.numberFour.TabIndex = 8;
@@ -175,7 +175,7 @@ namespace SchoolCalculator
             // numberThree
             // 
             this.numberThree.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberThree.Location = new System.Drawing.Point(181, 298);
+            this.numberThree.Location = new System.Drawing.Point(174, 273);
             this.numberThree.Name = "numberThree";
             this.numberThree.Size = new System.Drawing.Size(70, 70);
             this.numberThree.TabIndex = 14;
@@ -187,7 +187,7 @@ namespace SchoolCalculator
             // 
             this.equalButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.equalButton.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.equalButton.Location = new System.Drawing.Point(333, 298);
+            this.equalButton.Location = new System.Drawing.Point(326, 273);
             this.equalButton.Name = "equalButton";
             this.equalButton.Size = new System.Drawing.Size(70, 146);
             this.equalButton.TabIndex = 13;
@@ -198,7 +198,7 @@ namespace SchoolCalculator
             // commaButton
             // 
             this.commaButton.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.commaButton.Location = new System.Drawing.Point(181, 374);
+            this.commaButton.Location = new System.Drawing.Point(174, 349);
             this.commaButton.Name = "commaButton";
             this.commaButton.Size = new System.Drawing.Size(70, 70);
             this.commaButton.TabIndex = 12;
@@ -209,7 +209,7 @@ namespace SchoolCalculator
             // minusButton
             // 
             this.minusButton.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minusButton.Location = new System.Drawing.Point(257, 298);
+            this.minusButton.Location = new System.Drawing.Point(250, 273);
             this.minusButton.Name = "minusButton";
             this.minusButton.Size = new System.Drawing.Size(70, 70);
             this.minusButton.TabIndex = 15;
@@ -220,7 +220,7 @@ namespace SchoolCalculator
             // multiButton
             // 
             this.multiButton.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.multiButton.Location = new System.Drawing.Point(257, 222);
+            this.multiButton.Location = new System.Drawing.Point(250, 197);
             this.multiButton.Name = "multiButton";
             this.multiButton.Size = new System.Drawing.Size(70, 70);
             this.multiButton.TabIndex = 16;
@@ -231,7 +231,7 @@ namespace SchoolCalculator
             // ceButton
             // 
             this.ceButton.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ceButton.Location = new System.Drawing.Point(333, 149);
+            this.ceButton.Location = new System.Drawing.Point(326, 124);
             this.ceButton.Name = "ceButton";
             this.ceButton.Size = new System.Drawing.Size(70, 70);
             this.ceButton.TabIndex = 17;
@@ -242,7 +242,7 @@ namespace SchoolCalculator
             // cButton
             // 
             this.cButton.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cButton.Location = new System.Drawing.Point(333, 222);
+            this.cButton.Location = new System.Drawing.Point(326, 197);
             this.cButton.Name = "cButton";
             this.cButton.Size = new System.Drawing.Size(70, 70);
             this.cButton.TabIndex = 18;
@@ -253,7 +253,7 @@ namespace SchoolCalculator
             // ResultBox
             // 
             this.ResultBox.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResultBox.Location = new System.Drawing.Point(30, 88);
+            this.ResultBox.Location = new System.Drawing.Point(23, 63);
             this.ResultBox.Name = "ResultBox";
             this.ResultBox.Size = new System.Drawing.Size(373, 47);
             this.ResultBox.TabIndex = 19;
@@ -265,7 +265,7 @@ namespace SchoolCalculator
             this.showOperationLabel.AutoSize = true;
             this.showOperationLabel.BackColor = System.Drawing.SystemColors.Control;
             this.showOperationLabel.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showOperationLabel.Location = new System.Drawing.Point(390, 65);
+            this.showOperationLabel.Location = new System.Drawing.Point(383, 40);
             this.showOperationLabel.Name = "showOperationLabel";
             this.showOperationLabel.Size = new System.Drawing.Size(0, 20);
             this.showOperationLabel.TabIndex = 20;
@@ -274,7 +274,7 @@ namespace SchoolCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(442, 468);
+            this.ClientSize = new System.Drawing.Size(431, 460);
             this.Controls.Add(this.showOperationLabel);
             this.Controls.Add(this.ResultBox);
             this.Controls.Add(this.cButton);

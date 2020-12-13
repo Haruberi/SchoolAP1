@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SchoolCalculator.Command_Pattern;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,13 +11,17 @@ using System.Windows.Forms;
 
 namespace SchoolCalculator
 {
-    public partial class Form1 : Form
+    //Client
+    public partial class Form1 : Form, IPatternClass
     {
-        //Entry point
         double valueResult = 0;
         string operation = "";
         bool operationPerformedCorrectly = false;
 
+        bool IPatternClass.operationPerformedCorrectly
+        {
+            get => throw new NotImplementedException(); set => throw new NotImplementedException();
+        }
 
         public Form1()
         {
@@ -26,7 +31,7 @@ namespace SchoolCalculator
         //Functions for buttons for numbers and ","
         private void button_click(object sender, EventArgs e)
         {
-            if ((ResultBox.Text=="0") || (operationPerformedCorrectly))
+            if ((ResultBox.Text == "0") || (operationPerformedCorrectly))
                 ResultBox.Clear();
 
             operationPerformedCorrectly = false;
@@ -37,14 +42,14 @@ namespace SchoolCalculator
                     ResultBox.Text = ResultBox.Text + button.Text;
             }
             else
-            ResultBox.Text = ResultBox.Text + button.Text;
+                ResultBox.Text = ResultBox.Text + button.Text;
         }
 
         //Functions for buttons for "+" , "-" , "x" and "/"
         private void operator_click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            if (valueResult!= 0)
+            if (valueResult != 0)
             {
                 equalButton.PerformClick();
                 operation = button.Text;
@@ -58,7 +63,7 @@ namespace SchoolCalculator
                 showOperationLabel.Text = valueResult + " " + operation;
                 operationPerformedCorrectly = true;
             }
-            
+
         }
 
         //Function for button "CE"
@@ -76,7 +81,7 @@ namespace SchoolCalculator
         }
 
         //Function for button "="
-        private void equal_click(object sender, EventArgs e)
+        public void equal_click(object sender, EventArgs e)
         {
             switch (operation)
             {
@@ -99,11 +104,23 @@ namespace SchoolCalculator
                 default:
                     break;
             }
-            valueResult = Double.Parse(ResultBox.Text);
+            valueResult = double.Parse(ResultBox.Text);
             showOperationLabel.Text = "";
+
+            operationPerformedCorrectly = true;
         }
-        
 
+        public void Execute()
+        {
+        }
 
+        public void Undo()
+        {
+        }
+
+        public void Redo()
+        {
+        }
     }
 }
+

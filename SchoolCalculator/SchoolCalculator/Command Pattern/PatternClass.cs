@@ -7,12 +7,37 @@ using System.Threading.Tasks;
 
 namespace SchoolCalculator.Command_Pattern
 {
-    class PatternClass
+    //Receiver
+    public class PatternClass : IPatternClass
     {
 
-            //old
-            //koppla 
-            //Stack<string> originalOperations = new Stack<string>();
+        public PatternClass()
+        {
+        }
+        public PatternClass(int value)
+        {
+        }
+        public void equal_click(object sender, EventArgs e)
+        {
+        }
+        public void Execute ()
+        {
+        }
 
+        public void Undo()
+        {
+        }
+        public void Redo()
+        {
+        }
+
+        public bool operationPerformedCorrectly
+        {
+            get => throw new NotImplementedException();
+            set => throw new NotImplementedException();
+        }
     }
 }
+
+        
+

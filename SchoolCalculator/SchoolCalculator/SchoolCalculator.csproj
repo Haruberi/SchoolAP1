@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command Pattern\IPatternClass.cs" />
     <Compile Include="Command Pattern\PatternClass.cs" />
+    <Compile Include="Command Pattern\StackClass.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

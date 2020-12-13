@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace SchoolCalculator.Command_Pattern
 {
-    interface IPatternClass
+    //Command
+    public interface IPatternClass
     {
+        //Undo
+       void Undo();
+       void Redo();
+        bool operationPerformedCorrectly { get; set; }
+        //Execute
+        void equal_click(object sender, EventArgs e);
+        void Execute();
     }
 }
