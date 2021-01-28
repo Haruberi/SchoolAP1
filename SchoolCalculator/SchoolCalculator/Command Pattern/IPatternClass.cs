@@ -17,5 +17,6 @@ namespace SchoolCalculator.Command_Pattern
         bool operationPerformedCorrectly { get; set; }
         //Execute
         void equal_click(object sender, EventArgs e);
+
     }
 }

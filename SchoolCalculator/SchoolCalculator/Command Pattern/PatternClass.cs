@@ -12,7 +12,6 @@ namespace SchoolCalculator.Command_Pattern
     {
         public void equal_click(object sender, EventArgs e)
         {
-            Console.WriteLine();
         }
 
         public void Undo()
